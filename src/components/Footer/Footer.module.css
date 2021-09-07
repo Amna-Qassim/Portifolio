@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.link-list {
+  display: flex;
+}
+
+.link-item + .link-item::before {
+  content: ' / ';
+}
